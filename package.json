@@ -1,0 +1,29 @@
+{
+  "name": "com.swiid",
+  "version": "1.0.0",
+  "description": "Homey app for Z-wave devices from Swiid",
+  "main": "app.js",
+  "dependencies": {
+    "homey-meshdriver": "1.2.22"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:glennsp/com.swiid.git"
+  },
+  "keywords": [
+    "z-wave",
+    "athom",
+    "homey",
+    "swiid"
+  ],
+  "author": "Glenn S. Pedersen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glennsp/com.swiid/issues"
+  },
+  "homepage": "https://github.com/glennsp/com.swiid#readme"
+}

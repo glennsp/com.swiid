@@ -1,0 +1,61 @@
+{
+  "id": "com.swiid",
+  "name": {
+    "en": "Swiid"
+  },
+  "version": "1.0.0",
+  "compatibility": ">=1.5.0",
+  "sdk": 2,
+  "athomForumDiscussionId": -1,
+  "author": {
+    "name": "Glenn S. Pedersen",
+    "email": "glenn.pedersen@gmail.com"
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {}
+    }
+  },
+  "description": {
+    "en": "Support for Swiid Z-Wave devices"
+  },
+  "category": [
+    "lights"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "drivers": [
+    {
+      "id": "SW-ZCS-1",
+      "name": {
+        "en": "SwiidInter - Z-Wave Cord Switch"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff"
+      ],
+      "images": {
+        "large": "/drivers/SW-ZCS-1/assets/images/large.png",
+        "small": "/drivers/SW-ZCS-1/assets/images/small.png"
+      },
+      "zwave": {
+        "manufacturerId": 358,
+        "productTypeId": [
+          256
+        ],
+        "productId": [
+          256
+        ],
+        "zwaveAllianceProductId": 1082,
+        "learnmode": {
+          "instruction": {
+            "en": "Press the small button on the back once"
+          }
+        }
+      }
+    }
+  ]
+}
