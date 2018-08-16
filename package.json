@@ -4,7 +4,7 @@
   "description": "Homey app for Z-wave devices from Swiid",
   "main": "app.js",
   "dependencies": {
-    "homey-meshdriver": "1.2.22"
+    "homey-meshdriver": "1.2.23"
   },
   "devDependencies": {},
   "scripts": {

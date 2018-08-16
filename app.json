@@ -51,11 +51,70 @@
         ],
         "zwaveAllianceProductId": 1082,
         "learnmode": {
+          "image": "/drivers/SW-ZCS-1/assets/learnmode.svg",
           "instruction": {
-            "en": "Press the small button on the back once"
+            "en": "1.\tPlease press the small button on the back of the unit once.\n2.\tThe button will flash and turn red throughout the pairing process."
+          }
+        },
+        "associationGroups": [
+          1, 2
+        ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "The SwiidInter will send notification of a long press (over 0.5 seconds) on the On/Off button."
+            }
+          },
+          "2": {
+            "hint": {
+              "en": "The SwiidInter will send notification of every press (on release) on the On/Off button."
+            }
           }
         }
-      }
+      },
+      "settings": [
+        {
+          "id": "Switch_All",
+          "zwave": {
+            "index": 1,
+            "size": 1
+          },
+          "type": "dropdown",
+          "value": "255",
+          "values": [
+            {
+              "id": "0",
+              "label": {
+                "en": "Disabled"
+              }
+            },
+            {
+              "id": "1",
+              "label": {
+                "en": "Switch on only"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Switch off only"
+              }
+            },
+            {
+              "id": "255",
+              "label": {
+                "en": "Fully enabled (default)"
+              }
+            }
+          ],
+          "label": {
+            "en": "Switch All behaviour"
+          },
+          "hint": {
+            "en": "The SwiidInter can react on Switch All notifications"
+          }
+        }
+      ]
     }
   ]
 }
