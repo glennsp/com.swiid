@@ -3,6 +3,9 @@
   "name": {
     "en": "Swiid"
   },
+  "tags": {
+    "en": [ "swiid", "swiidinter" ]
+  },
   "version": "1.0.0",
   "compatibility": ">=1.5.0",
   "sdk": 2,
