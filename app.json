@@ -6,10 +6,10 @@
   "tags": {
     "en": [ "swiid", "swiidinter" ]
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": ">=1.5.0",
   "sdk": 2,
-  "athomForumDiscussionId": -1,
+  "athomForumDiscussionId": 5408,
   "author": {
     "name": "Glenn S. Pedersen",
     "email": "glenn.pedersen@gmail.com"
